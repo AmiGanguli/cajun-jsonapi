@@ -1,3 +1,16 @@
+CAJUN is Copyright (c) 2009-2010 by Terry Caton.  I love it.  I've used
+it in enough projects by now that I want to make sure I always have access
+to a copy, hence the Github fork.  I may update it over time as the need 
+arises, but the original is "good enough" for most use-cases, so there's
+probably not much need. 
+
+Terry Caton, if you're ever in Toronto look me up and I'll buy you a beverage
+of your choosing.
+
+- Ami.
+
+====
+
 CAJUN* is a C++ API for the JSON object interchange format. JSON is like XML, except it doesn't suck**. It is specifically designed for representing (in plain text format) structures familiar to software engineers: booleans, numerics, strings, arrays, and objects (i.e. name/value pairs, associative array, etc.); it humbly leaves text markup to XML. It is ideal for storing persistent application data, such as configuration or user data files. 
 
 Too many JSON parsers I've seen suffer from overly complex designs and confusing interfaces, so in true software engineer form, I thought I could do better. The goal of JSON was to create an simple, "minimalist" interface while sacrificing absolutely no power or flexibility. The STL containers, while not without their violations of that spirit, served as an inspiration. The end result is (IMHO) an interface that should be immediately intuitive to anyone familiar with C++ and the Standard Library containers. It can best be described as working with an "element", where an element may consist of:

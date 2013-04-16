@@ -12,4 +12,7 @@ add_executable( test
 	test/test.cpp
 )
 
+add_executable( test2
+	test/test2.cpp
+)
 
